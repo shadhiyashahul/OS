@@ -84,3 +84,28 @@ student@dl-27:~/shadhiya_58$ uname -a
 Linux dl-27 6.8.0-49-generic #49~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Wed Nov  6 17:42:15 UTC 2 x86_64 x86_64 x86_64 GNU/Linux
 student@dl-27:~/shadhiya_58$ hostname
 dl-27
+student@dl-27:~/shadhiya_58$ echo "hello"
+hello
+student@dl-27:~/shadhiya_58$ ls -l
+total 0
+student@dl-27:~/shadhiya_58$ ls -t
+student@dl-27:~/shadhiya_58$ ls -l
+total 4
+drwxrwxr-x 2 student student 4096 Jan  4 16:57 hello.c
+student@dl-27:~/shadhiya_58$ ls -t
+hello.c
+student@dl-27:~/shadhiya_58$ ls -u
+hello.c
+student@dl-27:~/shadhiya_58$ ls -s
+total 4
+4 hello.c
+student@dl-27:~/shadhiya_58$ ls -r
+hello.c
+student@dl-27:~/shadhiya_58$ ls -f
+hello.c  ..  .
+student@dl-27:~/shadhiya_58$ ls -s
+total 4
+4 hello.c
+student@dl-27:~/shadhiya_58$ ls -h
+hello.c
+
